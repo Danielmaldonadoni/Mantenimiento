@@ -1,0 +1,8 @@
+/*Proyecto mantenimiento actualizado el 27-04-2017 por Daniel Maldonado*/
+1.- Se agrego el modulo de rubros para que se pueda agregar o quitar automaticamente en la aplicación en la parte de staff.
+2.- En la parte de tiendas solo se actualizo a las nuevas caracteristícas quitando el campo status sustituyendolo por los campos (servicio, calidad, velocidad) que es la calificación obtenida una véz que se a realizado la encuesta de calificación servicio.
+3.- En supervisores se agrego un index con la leyenda de que se encuestra en mantenimineto y solo eso.
+/*Proyecto mantenimiento actualizado 05/05/2017 por Daniel Maldonado*/
+1.-Se centro la leyenda de la "La funcionalidad completa de  este sitio se obtiene usando Google Chrome" en el mósulo de staff.
+2.-Se agrego el listado de reportes mostrandolos en una tabla, con enlace en el id del reporte hacia una ventana emergente para ver las tareas de reporte y poder anexar tareas en el reporte si el reporte tiene tareas pendientes o programadas aun.
+3.-En el módulo de tiendas se centro la leyenda de "La funcionalidad completa de este sitio se obtiene usando Google Chrome".

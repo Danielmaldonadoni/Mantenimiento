@@ -1,0 +1,250 @@
+﻿@charset "utf-8";
+/* CSS Document */
+a{
+	color:#000;
+}
+@font-face {
+    	font-family: 'PT Sans', sans-serif;
+	}
+body{
+	
+	font-family: 'PT Sans', sans-serif;
+	font-size:13px;
+
+	
+    /*overflow: scroll !important;*/
+	}
+
+
+#imagenlogo{
+	text-align: center;
+}
+
+#cuerpo1{
+	margin: .5em auto;
+	width: 945px;
+    height: 350px;    
+	position: relative;
+	border: 3px solid #fff;
+	box-shadow: 10px 5px 10px black;
+}
+
+#cuerpo1 .marcotienda
+{
+	position: absolute;
+	margin-left:160px;
+	left: -149px;
+	
+}
+
+#cuerpo1 .zapatotienda
+{
+	position: absolute;
+	margin-left: 40px;
+	top: 11px;
+	left: -32px;
+	width: 221px;
+	height: 330px;
+	
+}
+#cuerpo1 .textocuadro
+{
+	position: absolute;
+	margin-left: 240px;
+	top: 12px;
+	left: -1px;
+}
+#cuerpo1 .textocuadroimagen
+{
+	position: absolute;
+	margin-left: 250px;
+	top: 19px;
+	left: -6px;
+	width: 100px;
+	
+}
+#cuerpo1 .mapafondo
+{
+	position: absolute;
+	margin-left: 500px;
+	top: 15px;
+	left: 4px;
+	width: 407px;
+	height: 345px;
+}
+#cuerpo1 .mapa
+{
+	position: absolute;
+	margin-left: 50%;
+	top: 13px;
+	left: 20px;
+	width: 467px;
+	height: 348px;
+
+
+
+}
+#cuerpo1 .combos
+{
+	position:absolute;
+	margin-left:600px;
+	top:40px;
+}
+#cuerpo1 .hombre
+{
+	position:absolute;
+	margin-left:-30px;
+	top:11px;
+	left: 49px;
+}
+#cuerpo1 .mujer
+{
+	position:absolute;
+	margin-left:-30px;
+	top:19px;
+	left: 50px;
+}
+#cuerpo1 .imagenpoder
+{
+	position:absolute;
+	margin-left:70px;
+	top:50px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------- Menú de Navegación -------------------------- */
+
+li ul{
+	padding:0.5em 0 1em 0;
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	}
+li>ul{
+	top:auto;
+	left:auto;
+	}
+li li{
+	float:left;
+	border:0;
+	display:block;
+	background:transparent;
+	}
+li:hover ul,li.over ul{
+	display:block;
+	}
+
+#zona{
+	position:absolute;
+	left:280px;
+	top: 200px;
+	width: 600px;
+	
+}
+
+#zona, #zona ul{
+     margin:0;
+     padding:0;
+     list-style-type:none;
+     list-style-position:outside;
+     position:relative;
+     line-height:1.5em;
+ }
+ 
+  #zona a:link, #zona a:active, #zona a:visited{
+    display:block;
+    padding:2px 5px;
+    border:1px solid #FFF;
+    color:#000;
+    text-decoration:none;
+    /*background-color:#88aebb;*/
+	background-color:#fff
+ }
+
+#zona a:hover{
+    background-color:#F1F1F1;
+    color:#000;
+}
+
+#zona li{
+    float:left;
+    position:relative;
+	
+}
+
+#zona ul {
+    position:absolute;
+    width:12em;
+    top:1.5em;
+    display:none;
+}
+
+#zona li ul a{
+    width:12em;
+    float:left;
+}
+
+#zona ul ul{
+	top:auto;
+	}
+
+#zona li ul ul {
+    left:12em;
+    margin:0px 0 0 10px;
+    }
+
+#zona li:hover ul ul, #zona li:hover ul ul ul, #zona li:hover ul ul ul ul{
+    display:none;
+    }
+#zona li:hover ul, #zona li li:hover ul, #zona li li li:hover ul, #zona li li li li:hover ul{
+    display:block;
+    }
+	
+
+#contact-area {
+	width: 380px;
+	margin-top: 5px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 230px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+	
+}
+
+#contact-area textarea {
+	height: 60px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 1px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 80px;
+	float: right;
+	margin-right:40px;
+}
+
+#contact-area name {
+	margin-top:20px;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 80px;
+	padding-top: 5px;
+	
+}

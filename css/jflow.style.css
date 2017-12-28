@@ -1,0 +1,131 @@
+#sliderContainer { 
+width: 970px; 
+height: 450px;  
+position: relative; 
+/*border-top: 5px solid #999; 
+border-bottom: 5px solid #999; */
+margin: 0 auto; 
+}
+#sliderContainer1 { 
+width: 557px; 
+height: 265px; 
+position: relative; 
+/*border-top: 5px solid #999; 
+border-bottom: 5px solid #999; */
+margin-left:415px;
+top:35px;
+}
+#sliderContainer2 { 
+width: 293px; 
+height: 163px; 
+position: relative; 
+/*border-top: 5px solid #999; 
+border-bottom: 5px solid #999; */
+margin-left:60px;
+top:-230px;
+}
+
+.slideContent {  
+background:url(../img/arrows.png) repeat scroll 0 0 transparent; 
+position: absolute; 
+bottom:0px; 
+right:0px; 
+padding: 10px;
+width: 920px; 
+}
+.slideContent1 {  
+background:url(../img/arrows.png) repeat scroll 0 0 transparent; 
+position: absolute; 
+bottom:0px; 
+right:0px; 
+padding: 10px;
+width: 920px; 
+}
+
+.slide h3 {  font: 26px/1em 'Rokkitt', serif; color: #FFF;  margin: 0 0 5px 0; }
+
+.slide p { font-size: 14px; color: #FFF; margin: 0; }
+
+.jFlowSlideContainer { overflow: hidden; }
+
+.jFlowSlideContainer a { color: #F90; text-decoration: none; font-style: italic; }
+
+.jFlowSlideContainer a:hover { text-decoration: none; }
+
+.jFlowSlideContainer a:focus { position: relative; top: 1px; }
+
+.jFlowNext { background:url(../img/arrows.png) no-repeat scroll 0 -35px transparent; 
+height:130px; 
+position:absolute; 
+top:150px; 
+right: -50px; 
+width:50px; 
+cursor:pointer; 
+}
+
+.jFlowNext1 {
+	background:url(../img/poder_palabras/boton-derecha.png) no-repeat scroll transparent;
+	height:130px;
+	position:absolute;
+	top:100px;
+	right: -43px;
+	width:50px;
+	cursor:pointer;
+}
+.jFlowNext2 {
+	background:url(../img/poder_palabras/boton-derecha.png) no-repeat scroll transparent;
+	height:130px;
+	position:absolute;
+	top:50px;
+	right: -43px;
+	width:50px;
+	cursor:pointer;
+}
+
+.jFlowPrev { 
+background:url(../img/arrows.png) no-repeat scroll -84px -35px transparent; 
+height:130px; 
+position:absolute; 
+top:150px; 
+left: -50px; 
+width:50px; 
+cursor:pointer; 
+}
+
+.jFlowPrev1 { 
+background:url(../img/poder_palabras/boton-izquierda.png) no-repeat scroll transparent;
+height:130px; 
+position:absolute; 
+top:100px; 
+left: -35px; 
+width:50px; 
+cursor:pointer; 
+}
+.jFlowPrev2 { 
+background:url(../img/poder_palabras/boton-izquierda.png) no-repeat scroll transparent;
+height:130px; 
+position:absolute; 
+top:50px; 
+left: -35px; 
+width:50px; 
+cursor:pointer; 
+}
+
+.jFlowPrev:hover { background-position: -84px -235px; }
+
+.jFlowNext:hover { background-position: 0px -235px; }
+
+
+/* controller pagination */
+
+#myController {
+	position: absolute;
+	top: -19px;
+	right: 5px;
+}
+
+.jFlowControl { background:url(../img/bullet.png)no-repeat scroll 0px 0px transparent;  float: left; width: 15px; height: 15px;}
+
+.jFlowControl:hover { background-position: -32px 0px; cursor: pointer; }
+
+.jFlowSelected, .jFlowSelected:hover {background-position: -15px 0px;   }

@@ -1,0 +1,297 @@
+body{
+	/*background-image: url(../imagenes/fondo.jpg);	*/
+	background-color:#000;
+	/*font-family: 'PT Sans', sans-serif;*/
+	font-family: helvetica, arial;
+	
+}
+
+header figure{
+	text-align: center;
+}
+
+header figure img{
+	width:150px;}
+
+header nav ul {
+	list-style: none;
+	/*background-color: green;	*/
+	text-align: center;		
+	height: auto;
+	width: auto;	
+}
+
+header nav ul li{
+	color:#fff;
+	padding: 5px;
+	margin: 0 18px 0 18px;
+	display: inline-block;
+	vertical-align: text-top;
+	text-align: center;
+	margin-top: 8px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	
+}
+
+#divprimero{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	color: #918C8C;
+	margin-bottom: 37px;
+	margin-top: 18px;
+
+
+}
+
+centrar
+{
+	
+	width:80%;
+}
+
+section {
+	border-radius: 10px;
+	background-color: white;		
+	margin-top: 5%;		
+	padding: 10px;	
+	text-align: center;
+	margin-right: 33%;
+	margin-left: 33%;
+}
+
+section div h2{
+	
+	background-color: white;					
+	text-align: center;
+	margin-right: 0%;
+	margin-left: 0%;
+	border-bottom: solid 3px #000;
+
+	
+
+}
+
+
+
+section article{
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin: 10px 5% 10% 10%;
+	padding: 5px;
+	
+	
+}
+section article div{
+	
+	float: left;
+	width: 50px;
+	text-align: left;
+}
+
+section article form select{
+	width: 220px;
+	font-size: 12px;
+
+}
+section article form input{
+	width: 220px;
+}
+
+section article select{
+
+	}
+
+section div{
+	
+	text-align: right;
+	font-size: 12px;	
+	/*background-color: orange;*/
+	height: 22px;
+	margin-top: 5px;
+}
+
+#div1{
+	}
+
+
+section div a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 400;
+	float: left;
+	font-size: 8px;
+}
+
+
+#botones{
+	background-color: #fff;
+
+
+}
+
+
+
+/*Face*/
+.icon_facebook {
+	float:right;
+	margin-right: 5px;
+	margin-left: 2px;
+	width: 20px;
+	height: 22px;
+	background: url('icon_facebook2.png') center -22px no-repeat;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;	
+    border-radius: 1%;
+}
+a.icon_facebook:hover {
+	background: url('icon_facebook2.png') center top no-repeat;
+}
+	
+/* twitter*/
+.icon_tweet {
+	float:right;
+	margin-right: 10px;
+	width: 20px;
+	height: 22px;
+	background: url('icon_tweet.png') center -22px no-repeat;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    border-radius: 1%;	
+	}
+
+	a.icon_tweet:hover {
+	background: url('icon_tweet.png') center top no-repeat;
+}
+
+
+#panelactualizar
+	{
+		margin-left:10%;
+		margin-right:10%;
+		text-align:left;
+		text-align:center;
+	}
+	
+#actualizaarticulo{
+	background-color:#f1f1f1;
+	margin-left:1%;
+	margin-left:1%;
+	text-align:center;
+}
+
+#actualizaarticulo img{
+	width:10%;	
+	}
+
+#actualizaarticulo article{
+	margin-bottom:15px;
+	}
+	
+	
+#actualizaarticulo1{
+	background-color:#f1f1f1;
+	margin-left:1%;
+	margin-left:1%;
+	text-align:center;
+}	
+
+textarea{
+
+	width:98%;
+	height:200px;
+	text-align:left;	
+	}
+
+#textotitulo{
+	width:98%;
+	font-weight:bold;
+	font-size:16px;
+	}
+	
+#input{
+	
+	}
+	
+	
+	
+	
+	
+	
+
+
+
+@media screen and (max-width: 910px){		
+	header{		
+		text-align: center;		
+	}
+	nav{
+	}
+	header nav ul{
+		
+		text-align: center;
+		/*background-color: blue;*/
+	}
+	header nav ul li{		
+		/*background-color: yellow;*/
+	}
+	#divimagen{	
+	display: none;
+	}
+	#divimagen2{
+		display: block;
+		margin-bottom: 0px;
+	}
+	
+
+	
+	
+}
+
+@media screen and (max-width: 705px){		
+	header{		
+		text-align: center;		
+	}
+	nav{
+	}
+	header nav ul{
+		
+		text-align: center;
+		/*background-color: green;*/
+	}
+	header nav ul li{		
+		/*background-color: yellow;*/
+		display: block;
+		margin-top: 3px;
+		height: 30px;		
+	}
+	#divimagen{	
+	display: none;
+	}
+	#divimagen2{
+		display: none;
+		
+	}
+	section {
+	border-radius: 10px;
+	background-color: white;		
+	margin-top: 10%;		
+	padding: 10px;	
+	text-align: center;
+	width: 250px;
+}
+
+#letrahelvetica
+{
+	font-family: helvetica, arial;
+	font-size: 20px;
+
+}
+

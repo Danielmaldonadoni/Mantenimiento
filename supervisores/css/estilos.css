@@ -1,0 +1,36 @@
+html
+{
+	position: relative; /*Para que el footer se ponga al final*/
+	min-height: 100%;/*Este va a ser el minimo de altura que tomara nuestra página*/
+}
+body
+{
+	margin: 0 0 65px;
+}
+
+footer
+{
+	text-align: center;/*Centramos el contenido del footer*/
+	width: 100%;
+	bottom: 0;
+	position: absolute;/*Con esto lo podemos posicionar donde queramos*/
+	height: 28px;/*Conesto lo posicionamos una altura de 28px del cuerpo*/
+}
+
+.logo{
+	margin-top:0;margin-left: 40%;/*Ponemos al logo en el centro*/
+}
+
+.rojo{
+	text-align: center;/*Centramos el texto dentro de rojo*/
+	color:#fc4e59;
+}
+
+.cabecera{
+	text-align: center;
+	background: #333;
+	color: white;
+}
+.centrar{
+	text-align:center;
+}

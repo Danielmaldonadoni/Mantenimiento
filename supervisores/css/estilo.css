@@ -1,0 +1,61 @@
+body
+{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+#div1{  /*Esto es para el div de: hasta input*/
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 5px;    
+    margin-right: 40%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+/*Menu barra superior*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;    
+    width: 100%;
+
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f1f1f1;
+    color: #000;    
+}
+/*Menu barra superior*/
+
+table
+{
+    width: 100%; 
+    margin: 5, 5, 5, 5; 
+}
+
+td
+{
+    
+}
+
+input
+{
+    width: 98%;
+}
